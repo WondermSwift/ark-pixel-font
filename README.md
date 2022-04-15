@@ -98,7 +98,25 @@
 | `.ttf` | 在 `.otf` 出现之前的主流字体格式，理论上可以被 `.otf` 完全取代。如果你的软件不支持 `.otf` 格式，请使用这个格式。 |
 | `.woff2` | 压缩后的 `.otf` 格式，体积更小，适用于网络传输，但并非所有软件都支持。如果你需要通过网页在线引用字体，请优先使用这个格式。 |
 
-如果您使用 macOS, 并且已经安装过 [Homebrew](https://brew.sh/), 可以在终端键入命令：`brew tap homebrew/cask-fonts && brew install font-ark-pixel-10px && brew install font-ark-pixel-12px && brew install font-ark-pixel-16px` 来安装本字体。
+### macOS - Homebrew
+
+如果您使用 macOS 系统，也可以通过 [Homebrew](https://brew.sh) 来安装本字体。
+
+通过下面的命令来添加下载源：
+
+```commandline
+brew tap homebrew/cask-fonts
+```
+
+然后安装所需尺寸的字体：
+
+```commandline
+brew install font-ark-pixel-10px
+brew install font-ark-pixel-12px
+brew install font-ark-pixel-16px
+```
+
+详细信息请查看 [homebrew-cask-fonts](https://github.com/Homebrew/homebrew-cask-fonts) 的主页。
 
 ## 开发流程
 
