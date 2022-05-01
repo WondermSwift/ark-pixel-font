@@ -10,6 +10,7 @@
 - [主页](https://ark-pixel-font.takwolf.com)
 - [itch.io](https://takwolf.itch.io/ark-pixel-font)
 - [Discord](https://discord.gg/TPpab6vuTd)
+- [QQ 群](https://jq.qq.com/?_wv=1027&k=EXtKGHar)
 
 开源的泛中日韩像素字体。支持 10、12 和 16 像素。目标是为像素风格的游戏开发提供一套可用于正文的开箱即用的字体解决方案。
 
